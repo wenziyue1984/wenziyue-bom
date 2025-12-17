@@ -31,7 +31,6 @@
         <wenziyue.swagger.starter.version>1.0.1</wenziyue.swagger.starter.version>
 
         <!-- 第三方库版本 -->
-        <lombok.version>1.18.30</lombok.version>
         <druid.version>1.2.16</druid.version>
         <mybatis.plus.boot.starter.version>3.5.2</mybatis.plus.boot.starter.version>
         <rocketmq.spring.version>2.3.0</rocketmq.spring.version>
@@ -85,6 +84,11 @@
                 <groupId>com.wenziyue</groupId>
                 <artifactId>wenziyue-uid-starter</artifactId>
                 <version>${wenziyue.uid.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wenziyue</groupId>
+                <artifactId>wenziyue-auth-starter</artifactId>
+                <version>${wenziyue.auth.starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wenziyue</groupId>
