@@ -7,7 +7,7 @@
 
     <groupId>com.wenziyue</groupId>
     <artifactId>wenziyue-bom</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
 
     <name>wenziyue-bom</name>
@@ -20,15 +20,15 @@
         <spring.cloud.version>2021.0.9</spring.cloud.version>
 
         <!-- 自己生态的组件版本 -->
-        <wenziyue.auth.core.version>1.0.17</wenziyue.auth.core.version>
-        <wenziyue.framework.starter.version>1.0.3</wenziyue.framework.starter.version>
-        <wenziyue.security.starter.version>1.0.6</wenziyue.security.starter.version>
-        <wenziyue.mybatis.plus.starter.version>1.0.1</wenziyue.mybatis.plus.starter.version>
-        <wenziyue.redis.starter.version>1.0.15</wenziyue.redis.starter.version>
-        <wenziyue.auth.starter.version>1.0.7</wenziyue.auth.starter.version>
-        <wenziyue.uid.starter.version>1.0.1</wenziyue.uid.starter.version>
-        <wenziyue.idempotent.starter.version>1.0.1</wenziyue.idempotent.starter.version>
-        <wenziyue.swagger.starter.version>1.0.1</wenziyue.swagger.starter.version>
+        <wenziyue.auth.core.version>1.0.18</wenziyue.auth.core.version>
+        <wenziyue.framework.starter.version>1.0.4</wenziyue.framework.starter.version>
+        <wenziyue.security.starter.version>1.0.8</wenziyue.security.starter.version>
+        <wenziyue.mybatis.plus.starter.version>1.0.2</wenziyue.mybatis.plus.starter.version>
+        <wenziyue.redis.starter.version>1.0.16</wenziyue.redis.starter.version>
+        <wenziyue.auth.starter.version>1.0.8</wenziyue.auth.starter.version>
+        <wenziyue.uid.starter.version>1.0.2</wenziyue.uid.starter.version>
+        <wenziyue.idempotent.starter.version>1.0.2</wenziyue.idempotent.starter.version>
+        <wenziyue.swagger.starter.version>1.0.2</wenziyue.swagger.starter.version>
 
         <!-- 第三方库版本 -->
         <druid.version>1.2.16</druid.version>
