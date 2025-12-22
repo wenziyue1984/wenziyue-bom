@@ -7,7 +7,7 @@
 
     <groupId>com.wenziyue</groupId>
     <artifactId>wenziyue-bom</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packaging>pom</packaging>
 
     <name>wenziyue-bom</name>
@@ -18,17 +18,6 @@
         <!-- 生态基线 -->
         <spring.boot.version>2.7.18</spring.boot.version>
         <spring.cloud.version>2021.0.9</spring.cloud.version>
-
-        <!-- 自己生态的组件版本 -->
-        <wenziyue.auth.core.version>1.0.20</wenziyue.auth.core.version>
-        <wenziyue.framework.starter.version>1.0.4</wenziyue.framework.starter.version>
-        <wenziyue.security.starter.version>1.0.8</wenziyue.security.starter.version>
-        <wenziyue.mybatis.plus.starter.version>1.0.2</wenziyue.mybatis.plus.starter.version>
-        <wenziyue.redis.starter.version>1.0.16</wenziyue.redis.starter.version>
-        <wenziyue.auth.starter.version>1.0.10</wenziyue.auth.starter.version>
-        <wenziyue.uid.starter.version>1.0.2</wenziyue.uid.starter.version>
-        <wenziyue.idempotent.starter.version>1.0.2</wenziyue.idempotent.starter.version>
-        <wenziyue.swagger.starter.version>1.0.2</wenziyue.swagger.starter.version>
 
         <!-- 第三方库版本 -->
         <druid.version>1.2.16</druid.version>
@@ -57,55 +46,6 @@
                 <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-
-            <!-- 自定义 Starter: 统一管理版本 -->
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-framework-starter</artifactId>
-                <version>${wenziyue.framework.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-mybatis-plus-starter</artifactId>
-                <version>${wenziyue.mybatis.plus.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-security-starter</artifactId>
-                <version>${wenziyue.security.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-redis-starter</artifactId>
-                <version>${wenziyue.redis.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-uid-starter</artifactId>
-                <version>${wenziyue.uid.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-auth-starter</artifactId>
-                <version>${wenziyue.auth.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-idempotent-starter</artifactId>
-                <version>${wenziyue.idempotent.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-swagger-starter</artifactId>
-                <version>${wenziyue.swagger.starter.version}</version>
-            </dependency>
-
-            <!-- auth-core -->
-            <dependency>
-                <groupId>com.wenziyue</groupId>
-                <artifactId>wenziyue-auth-core</artifactId>
-                <version>${wenziyue.auth.core.version}</version>
             </dependency>
 
             <!-- 明确要锁的三方库 -->
