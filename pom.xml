@@ -28,6 +28,7 @@
         <dotenv.version>2.2.0</dotenv.version>
         <springdoc.version>1.8.0</springdoc.version>
         <jjwt.version>0.9.1</jjwt.version>
+        <mysql.connector.java.version>8.0.27</mysql.connector.java.version>
     </properties>
 
     <dependencyManagement>
@@ -110,7 +111,7 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.27</version>
+                <version>${mysql.connector.java.version}</version>
             </dependency>
 
         </dependencies>
