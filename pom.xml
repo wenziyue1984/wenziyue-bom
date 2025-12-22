@@ -7,7 +7,7 @@
 
     <groupId>com.wenziyue</groupId>
     <artifactId>wenziyue-bom</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>pom</packaging>
 
     <name>wenziyue-bom</name>
@@ -20,7 +20,7 @@
         <spring.cloud.version>2021.0.9</spring.cloud.version>
 
         <!-- 自己生态的组件版本 -->
-        <wenziyue.auth.core.version>1.0.19</wenziyue.auth.core.version>
+        <wenziyue.auth.core.version>1.0.20</wenziyue.auth.core.version>
         <wenziyue.framework.starter.version>1.0.4</wenziyue.framework.starter.version>
         <wenziyue.security.starter.version>1.0.8</wenziyue.security.starter.version>
         <wenziyue.mybatis.plus.starter.version>1.0.2</wenziyue.mybatis.plus.starter.version>
